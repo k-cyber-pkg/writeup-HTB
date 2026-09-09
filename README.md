@@ -7,13 +7,16 @@
 #Link: https://app.hackthebox.com/machines/Fawn
 
 🪉-----------------🪊
+
 #tool:
+
 -NMAP
 -NetCat
 -Ping 
 
 -----------------⌛
 #procces:
+
 #get ip from HTB (10.129.210.233). easy, nmap:
 
 ```nmap -sV 10.129.210.233```
