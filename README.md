@@ -1,7 +1,7 @@
 # writeup-HTB
 #main info:
-machine: Fawn
-Link: https://app.hackthebox.com/machines/Fawn
+#machine: Fawn
+#Link: https://app.hackthebox.com/machines/Fawn
 
 #tool:
 -NMAP
