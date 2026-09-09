@@ -25,6 +25,7 @@ Nmap done: 1 IP address (0 hosts up) scanned in 3.44 seconds
 -nmap -Pn 10.129.210.233 
 
 #result:
+
 PORT   STATE SERVICE
 21/tcp open  ftp
 port 21? ok, NetCat
@@ -44,4 +45,5 @@ Name (10.129.210.233:kali):
 #dont like password :(
 #well, password = nothing, login = anonymous
 #time to get flag:
+
 -get flag.txt
