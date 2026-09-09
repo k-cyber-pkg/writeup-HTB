@@ -61,3 +61,5 @@ Name (10.129.210.233:kali):
 #time to get flag:
 
 ```get flag.txt```
+
+#That all. Good luck and know: error -> try again -> error -> try again, never give up 🫡
