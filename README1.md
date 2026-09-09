@@ -1,12 +1,20 @@
+📝-----------------📝
 #main_info
+📝-----------------📝
 
 -Machine: Redeemer
 
 -Link: https://app.hackthebox.com/machines/Redeemer
 
+🪊-----------------🎸
+
 #tool
 
 -Nmap
+
+-redis-cli
+
+🌹-----------------🌹
 
 #Proces
 
@@ -24,7 +32,7 @@ Not shown: 1000 closed tcp ports (reset)
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/. Nmap done: 1 IP address (1 host up) scanned in 5.38 seconds
 
-#'All 1000 scanned ports on 10.129.212.124 are in ignored states.'? interesting. try again
+#'All 1000 scanned ports on 10.129.212.124 are in ignored states.'? interesting. try again 🫡👍
 
 ```nmap -Pn -sV -p- -T4 10.129.212.124```
 
@@ -33,7 +41,7 @@ Service detection performed. Please report any incorrect results at https://nmap
 PORT     STATE SERVICE VERSION
 6379/tcp open  redis   Redis key-value              
 
-#well, use redis cli
+#well, use redis cli (I googled how to do this
 
 ```redis-cli -h 10.129.212.124 -p 6379```
 
@@ -41,15 +49,15 @@ PORT     STATE SERVICE VERSION
 
 Could not connect to Redis at 10.129.212.124:6379: No route to host
 
-#this is bad :(. 
+#this is bad :( 👎. 
 
-#'after one googled'
+#'after one googled⌛'
 
 #well. need this command
 
 ```redis-cli -h 10.129.212.124```
 
-#yes! connect!time find flag (i googling, how do it)
+#yes 👍! connect👍! time find flag (i googling, how do it)
 
 ```KEYS *```
 
@@ -65,3 +73,5 @@ Could not connect to Redis at 10.129.212.124:6379: No route to host
 ```GET flag```
 
 #That all. Good luck and know: error -> try again -> error -> try again 
+🫡
+
