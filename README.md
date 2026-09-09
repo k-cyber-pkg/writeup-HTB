@@ -37,8 +37,8 @@ PORT   STATE SERVICE
 
 #port 21? ok, NetCat
 
-```nc 10.129.210.233 21
-421 Timeout.```  
+```nc 10.129.210.233 21```
+```421 Timeout.```
 
 #. . . Bad :(. Try again:
 
