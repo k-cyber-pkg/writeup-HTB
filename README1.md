@@ -22,8 +22,8 @@ Host is up (0.21s latency).
 All 1000 scanned ports on 10.129.212.124 are in ignored states.
 Not shown: 1000 closed tcp ports (reset)```
 
-```Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-Nmap done: 1 IP address (1 host up) scanned in 5.38 seconds```
+```Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .```
+```Nmap done: 1 IP address (1 host up) scanned in 5.38 seconds```
 
 #'All 1000 scanned ports on 10.129.212.124 are in ignored states.'? interesting. try again
 
