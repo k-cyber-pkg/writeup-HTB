@@ -1,6 +1,6 @@
 #main_info
 
--Machin: Redeemer
+-Machine: Redeemer
 
 -Link: https://app.hackthebox.com/machines/Redeemer
 
