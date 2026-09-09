@@ -56,4 +56,4 @@ Name (10.129.210.233:kali):
 
 #time to get flag:
 
-'''get flag.txt'''
+```get flag.txt```
