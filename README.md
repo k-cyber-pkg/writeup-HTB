@@ -11,8 +11,8 @@
 #tool:
 
 -NMAP
+
 -NetCat
--Ping 
 
 -----------------⌛
 #procces:
