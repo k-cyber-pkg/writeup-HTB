@@ -16,14 +16,13 @@
 
 #result:
 
-```Starting Nmap 7.99 ( https://nmap.org ) at 2026-09-09 04:40 -1000
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-09-09 04:40 -1000
 Nmap scan report for 10.129.212.124
 Host is up (0.21s latency).
 All 1000 scanned ports on 10.129.212.124 are in ignored states.
-Not shown: 1000 closed tcp ports (reset)```
+Not shown: 1000 closed tcp ports (reset)
 
-```Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .```
-```Nmap done: 1 IP address (1 host up) scanned in 5.38 seconds```
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/. Nmap done: 1 IP address (1 host up) scanned in 5.38 seconds
 
 #'All 1000 scanned ports on 10.129.212.124 are in ignored states.'? interesting. try again
 
@@ -31,8 +30,8 @@ Not shown: 1000 closed tcp ports (reset)```
 
 #result:
 
-```PORT     STATE SERVICE VERSION```
-```6379/tcp open  redis   Redis key-value``` ```store 5.0.7```
+PORT     STATE SERVICE VERSION
+6379/tcp open  redis   Redis key-value              
 
 #well, use redis cli
 
@@ -40,7 +39,7 @@ Not shown: 1000 closed tcp ports (reset)```
 
 #result:
 
-```Could not connect to Redis at 10.129.212.124:6379: No route to host```
+Could not connect to Redis at 10.129.212.124:6379: No route to host
 
 #this is bad :(. 
 
@@ -56,10 +55,10 @@ Not shown: 1000 closed tcp ports (reset)```
 
 #result:
 
-```1) "temp"```
-```2) "numb"```
-```3) "flag"```
-```4) "stor"```
+1) "temp"
+2) "numb"
+3) "flag"
+4) "stor"
 
 #We need "flag"
 
