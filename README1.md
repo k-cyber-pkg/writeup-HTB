@@ -9,6 +9,7 @@
 -Nmap
 
 #Proces
+
 #get ip from HTB. Start with Nmap
 
 -nmap -sV -Pn 10.129.212.124
