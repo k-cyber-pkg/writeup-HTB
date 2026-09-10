@@ -32,7 +32,7 @@ Nmap done: 1 IP address (0 hosts up) scanned in 3.44 seconds
 PORT   STATE SERVICE
 21/tcp open  ftp
 
-**Exploit:**
+**Exploitation:**
 
 **we use port 21:**
 
@@ -60,12 +60,10 @@ Name (10.129.210.233:kali):
 
 -Password - nothing
 
-# About Exploit:
-
 **FTP (File Transfer Protocol) is a standard network protocol used to transfer files between a client and a server over a TCP-based network like the internet**
 
 **on ftp server (if he not protect) everyone can connect to database, didn't know a password**
 
-# lession:
+# lession learned: 
 
 **protect a ftp database**
