@@ -2,6 +2,10 @@
 
 -machine: Fawn
 
+-OS: Linux
+
+-Difficulty: Very Easy 
+
 -Link: https://app.hackthebox.com/machines/Fawn
 
 # tool / exploit
