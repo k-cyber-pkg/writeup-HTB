@@ -1,61 +1,71 @@
-# main info:
+# Overview:
 
-#machine: Fawn
+-machine: Fawn
 
-#Link: https://app.hackthebox.com/machines/Fawn
+-Link: https://app.hackthebox.com/machines/Fawn
 
-🪉-----------------🪊
+# tool / exploit
 
-#tool:
-
--NMAP
+-Nmap
 
 -NetCat
 
--ftp
+-ftp 
 
------------------⌛
-#procces:
+# Reconnaissance 
 
-#get ip from HTB (10.129.210.233). easy, nmap:
+**start with Nmap**
 
-```nmap -sV 10.129.210.233```
+<nmap -sV 10.129.210.23>
 
-#result:
+**result**:
 
 Note: Host seems down. If it is really up, but blocking our ping probes, try -Pn
 Nmap done: 1 IP address (0 hosts up) scanned in 3.44 seconds
 
-#"Note: Host seems down"? Interesting... Well, try again
+**well... try again**:
 
-```nmap -Pn 10.129.210.233```
+<nmap -Pn 10.129.210.233 >
 
-#result:
+**result**:
 
 PORT   STATE SERVICE
 21/tcp open  ftp
 
-#port 21? ok, NetCat
+**Exploit:**
 
-```nc 10.129.210.233 21```
-```421 Timeout.```
+**we use port 21:**
 
-#. . . Bad :(. Try again:
+-nc 10.129.210.233 21
 
-```ftp 10.129.210.233```
+**result**:
 
-#result: 
+**#421 Timeout.**
+
+**...bad. try again (i googled, how do it)**
+
+-ftp 10.129.210.233
+
+**result**:
 
 Connected to 10.129.210.233.
 220 (vsFTPd 3.0.3)
 Name (10.129.210.233:kali):
 
-#dont like password :(
+**dont like password :(**
+**(after one hand brutforce)**
+**result**:
 
-#well, password = nothing, login = anonymous
+-Login - anonymous
 
-#time to get flag:
+-Password - nothing
 
-```get flag.txt```
+# About Exploit:
 
-#That all. Good luck and know: error -> try again -> error -> try again, never give up 🫡
+**FTP (File Transfer Protocol) is a standard network protocol used to transfer files between a client and a server over a TCP-based network like the internet**
+
+**on ftp server (if he not protect) everyone can connect to database, didn't know a password**
+
+# lession:
+
+**protect a ftp database**
