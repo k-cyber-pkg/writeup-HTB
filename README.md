@@ -34,6 +34,7 @@ Nmap done: 1 IP address (0 hosts up) scanned in 3.44 seconds
 **result**:
 
 PORT   STATE SERVICE
+
 21/tcp open  ftp
 
 **Exploitation:**
