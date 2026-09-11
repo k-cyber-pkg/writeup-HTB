@@ -80,5 +80,6 @@ Could not connect to Redis at 10.129.212.124:6379: No route to host
 the only protection was that the database was on port 6372, but it was impossible to bypass it you can use argume -p-**
 
 #That all. Good luck and know: error -> try again -> error -> try again 
+Thank you 
 🫡
 
