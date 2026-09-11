@@ -20,7 +20,7 @@
 
 **start with Nmap**
 
-<nmap -sV 10.129.210.23>
+'''nmap -sV 10.129.210.23'''
 
 **result**:
 
