@@ -20,7 +20,7 @@
 
 **start with Nmap**
 
-'''nmap -sV 10.129.210.23'''
+```nmap -sV 10.129.210.23```
 
 **result**:
 
@@ -29,7 +29,7 @@ Nmap done: 1 IP address (0 hosts up) scanned in 3.44 seconds
 
 **well... try again**:
 
-<nmap -Pn 10.129.210.233 >
+```nmap -Pn 10.129.210.233 ```
 
 **result**:
 
@@ -40,7 +40,7 @@ PORT   STATE SERVICE
 
 **we use port 21:**
 
--nc 10.129.210.233 21
+```nc 10.129.210.233 21```
 
 **result**:
 
@@ -48,7 +48,7 @@ PORT   STATE SERVICE
 
 **...bad. try again (i googled, how do it)**
 
--ftp 10.129.210.233
+```ftp 10.129.210.233```
 
 **result**:
 
@@ -60,9 +60,9 @@ Name (10.129.210.233:kali):
 **(after one hand brutforce)**
 **result**:
 
--Login - anonymous
+-```Login - anonymous```
 
--Password - nothing
+-```Password - nothing```
 
 **FTP (File Transfer Protocol) is a standard network protocol used to transfer files between a client and a server over a TCP-based network like the internet**
 
