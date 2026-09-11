@@ -1,6 +1,10 @@
-# main_info
+# Overview 
 
 -Machine: Redeemer
+
+OS: Linux
+
+Difficulty: Very Easy 
 
 -Link: https://app.hackthebox.com/machines/Redeemer
 
