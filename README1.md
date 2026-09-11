@@ -4,7 +4,7 @@
 
 -Link: https://app.hackthebox.com/machines/Redeemer
 
-🪊-----------------🎸
+# tools 
 
 #tool
 
@@ -12,9 +12,7 @@
 
 -redis-cli
 
-🌹-----------------🌹
-
-#Proces
+# Intelligent 
 
 #get ip from HTB. Start with Nmap
 
@@ -39,6 +37,8 @@ Service detection performed. Please report any incorrect results at https://nmap
 PORT     STATE SERVICE VERSION
 6379/tcp open  redis   Redis key-value              
 
+# Exploitation
+
 #well, use redis cli (I googled how to do this
 
 ```redis-cli -h 10.129.212.124 -p 6379```
@@ -47,7 +47,7 @@ PORT     STATE SERVICE VERSION
 
 Could not connect to Redis at 10.129.212.124:6379: No route to host
 
-#this is bad :( 👎. 
+#this is bad :( 
 
 #'after one googled⌛'
 
@@ -55,7 +55,7 @@ Could not connect to Redis at 10.129.212.124:6379: No route to host
 
 ```redis-cli -h 10.129.212.124```
 
-#yes 👍! connect👍! time find flag (i googling, how do it)
+#yes! connect! time find flag (i googling, how do it)
 
 ```KEYS *```
 
