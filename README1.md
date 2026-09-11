@@ -4,7 +4,7 @@
 
 -Link: https://app.hackthebox.com/machines/Redeemer
 
-# tools 
+# Tools Used 
 
 #tool
 
@@ -12,7 +12,7 @@
 
 -redis-cli
 
-# Intelligent 
+# Reconnaissance 
 
 **get ip from HTB. Start with Nmap**
 
