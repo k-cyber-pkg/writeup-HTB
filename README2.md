@@ -12,7 +12,7 @@
 
 -Nmap
 
--
+-MySQL cli
 
 # Reconnaissance 
 
